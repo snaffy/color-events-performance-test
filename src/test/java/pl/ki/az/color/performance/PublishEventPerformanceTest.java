@@ -11,16 +11,10 @@ import org.junit.runner.RunWith;
 @RunWith(ZeroCodeUnitRunner.class)
 public class PublishEventPerformanceTest {
 
-    @Test
-    @Scenario("publish/event/post_new_color_events.json")
-    @LoadWith("publish/event/publish_5per1sec.properties")
-    public void testPublishMultipleEvents5per1sec() throws Exception {
-
-    }
 
     @Test
     @Scenario("publish/event/post_new_color_events.json")
-    @LoadWith("publish/event/publish_100per2sec.properties")
+    @LoadWith("publish/event/publish_100per10sec.properties")
     public void testPublishMultipleEvents100per1sec() throws Exception {
 
     }

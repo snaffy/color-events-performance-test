@@ -1,8 +1,8 @@
 {
-  "scenarioName": "Corp Loan API- Create and Get Details Test",
+  "scenarioName": "Colors events performance test",
   "steps": [
     {
-      "name": "publish new event",
+      "name": "publish new events",
       "url": "/publish",
       "operation": "POST",
       "request": {
